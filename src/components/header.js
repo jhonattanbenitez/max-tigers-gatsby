@@ -28,7 +28,7 @@ class Header extends Component {
     return (
       <div>
         <Navbar fixed="top" light expand="sm">
-          <div class="container">
+          <div className="container">
             <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>

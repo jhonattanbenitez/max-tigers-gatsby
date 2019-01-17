@@ -17,7 +17,7 @@ const Footer = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="twitter" >
-                        <i class="fab fa-twitter fa-2x"></i>
+                        <i className="fab fa-twitter fa-2x"></i>
                     </a >
                           
                     </li>
@@ -26,7 +26,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="instagram"
                          >
-                        <i class="fab fa-instagram fa-2x"></i>
+                        <i className="fab fa-instagram fa-2x"></i>
                         
                     </a >
                     </li>
@@ -35,7 +35,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="twitch"
                          >
-                        <i class="fab fa-twitch fa-2x"></i>
+                        <i className="fab fa-twitch fa-2x"></i>
                         
                     </a >
                     </li>
@@ -45,7 +45,7 @@ const Footer = () => {
                         rel="noopener noreferrer"
                         className="linkedin"
                          >
-                        <i class="fab fa-linkedin fa-2x"></i>
+                        <i className="fab fa-linkedin fa-2x"></i>
                         
                     </a >
                     </li>

@@ -2,7 +2,7 @@
 title: 'First Post - Introduction'
 date: 2018-12-22 15:00:00
 author: 'Jhonattan'
-path: '/first-post'
+
 image: ../../images/pelirrojo.jpg
 tags:
 - LVP
