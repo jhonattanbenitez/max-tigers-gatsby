@@ -3,6 +3,7 @@ title: 'First Post - Introduction'
 date: 2018-12-22 15:00:00
 author: 'Jhonattan'
 path: '/first-post'
+image: ../../images/pelirrojo.jpg
 ---
 
 Acá podemos observar al mejor midlaner que participará en la Golden League que realiza la LVP Liga de Videojuegos Profesional y al lado #Hobbler. 😎🐯
