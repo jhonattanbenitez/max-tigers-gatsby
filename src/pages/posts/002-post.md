@@ -4,6 +4,10 @@ date: 2018-12-24 07:00:00
 author: 'Jhonattan'
 path: '/second-post'
 image: ../../images/elune.jpg
+tags:
+- Enule
+- Yusty
+- Los Junglas Gemelos
 ---
 
 ¿Casualidad tenerlos a los dos? ¿Hermanos perdidos?
