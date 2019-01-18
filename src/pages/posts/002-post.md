@@ -1,8 +1,7 @@
 ---
 title: 'Second Post '
 date: 2018-12-24 07:00:00
-author: 'Jhonattan'
-
+author: 'Juan'
 image: ../../images/elune.jpg
 tags:
 - Enule
