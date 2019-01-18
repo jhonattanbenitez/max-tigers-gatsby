@@ -1,14 +1,5 @@
 const authors = [
     {
-        name: 'Juan',
-        imageUrl: 'ceo.jpg',
-        bio: 'CEO',
-        facebook: 'https://www.facebook.com/jhonattan.benitez',
-        twitter: 'https://twitter.com/JhonB07',
-        instagram: 'https://www.instagram.com/jhonb07/'
-        
-    },
-    {
         name: 'Jhonattan',
         imageUrl: 'author_400x400.jpg',
         bio: 'Desarrollador Web',
@@ -17,7 +8,16 @@ const authors = [
         instagram: 'https://www.instagram.com/quanticocaster/'
         
     },
-  
+    {
+        name: 'Juan',
+        imageUrl: 'ceo.jpg',
+        bio: 'CEO',
+        facebook: 'https://www.facebook.com/jhonattan.benitez',
+        twitter: 'https://twitter.com/JhonB07',
+        instagram: 'https://www.instagram.com/jhonb07/'
+        
+    }
+    
 ]
 
 module.exports = authors;
