@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { graphql, StaticQuery } from 'gatsby';
 import Post from '../components/Post'
+import { Timeline } from 'react-twitter-widgets';
 
 
 const IndexPage = () => (
@@ -25,7 +26,18 @@ const IndexPage = () => (
                 />
               ))}
             </div>)
-        }} />
+    }} />
+    <Timeline
+            dataSource={{
+            sourceType: 'profile',
+            screenName: 'MaxTigersGG'
+            }}
+            options={{
+            username: 'MaxTigersGG',
+            height: '800'
+            }}
+            onLoad={() => console.log('Timeline is loaded!')}
+            />
   </Layout>
 )
 const indexQuery = graphql`
