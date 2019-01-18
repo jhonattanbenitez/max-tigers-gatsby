@@ -56,6 +56,7 @@ const SinglePost = ({ data, pageContext }) => {
                       </a></li>
         </ul>
         <ul>
+          {/*eslint-disable*/}
           <li><a href={'https://www.twitter.com/share?url=' + baseUrl + pageContext.slug + '&text=' + post.title + '&via' + 'twitterHandler'}
                       className="twitter"
                       target="_blank"
