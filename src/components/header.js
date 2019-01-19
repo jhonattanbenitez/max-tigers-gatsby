@@ -30,12 +30,14 @@ class Header extends Component {
       <div>
         <Navbar fixed="top" light expand="sm">
           <div className="container">
-          <a href="https://hopeful-neumann-5abd15.netlify.com/"><img src={logo} width="201" height="101"  alt="" /></a>
+          <img src={logo} width="201" height="101"  alt="" />
             <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                
+              <NavItem>
+                  <NavLink href="/">Inicio</NavLink>
+                </NavItem>
                 <NavItem>
                   <NavLink href="/teams">Equipos</NavLink>
                 </NavItem>
@@ -43,7 +45,7 @@ class Header extends Component {
                   <NavLink href="/tags">Etiquetas</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/streams">Streams</NavLink>
+                  <NavLink href="/streams">treams</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/team">Personal</NavLink>
