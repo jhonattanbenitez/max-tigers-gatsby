@@ -45,7 +45,7 @@ class Header extends Component {
                   <NavLink href="/tags">Etiquetas</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/streams">treams</NavLink>
+                  <NavLink href="/streams">Streams</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/team">Personal</NavLink>
