@@ -30,12 +30,14 @@ class Header extends Component {
       <div>
         <Navbar fixed="top" light expand="sm">
           <div className="container">
-          <a href="http://localhost:8000/"><img src={logo} width="201" height="101"  alt="" /></a>
+          <img src={logo} width="201" height="101"  alt="" />
             <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                
+               <NavItem>
+                  <NavLink href="/">Inicio</NavLink>
+                </NavItem>
                 <NavItem>
                   <NavLink href="/teams">Equipos</NavLink>
                 </NavItem>
