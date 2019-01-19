@@ -5,9 +5,10 @@ body {
   background-color: $light-gray;
 }
 a {
-  color: #0056b3;
+  color: #f38303;
+  font-weight: bold;
   &:hover {
-    color: #007bff;
+    color: rgb(243, 89, 29);
     text-decoration: none;
   }
 }
@@ -27,9 +28,9 @@ h1 {
 }
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-brand {
-  color: #0056b3;
+  color:#f38303;
   &:hover {
-    color: #007bff;
+    color:rgb(236, 25, 10);
   }
 }
 ul {

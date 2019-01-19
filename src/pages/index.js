@@ -7,11 +7,15 @@ import { Timeline } from 'react-twitter-widgets';
 import PaginationLinks from '../components/PaginationLinks'
 
 
+
 const IndexPage = () => {
   const postsPerPage = 2;
   let numberOfPages
-  return(<Layout pageTitle="Max Tigers">
-  <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+  return (
+    
+  <Layout pageTitle="Max Tigers">
+  
+    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <StaticQuery query={indexQuery} render={data => {
         numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
         return (
