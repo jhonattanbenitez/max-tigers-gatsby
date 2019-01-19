@@ -35,7 +35,7 @@ class Header extends Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-               <NavItem>
+              <NavItem>
                   <NavLink href="/">Inicio</NavLink>
                 </NavItem>
                 <NavItem>
@@ -45,7 +45,7 @@ class Header extends Component {
                   <NavLink href="/tags">Etiquetas</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/about">Nosotros</NavLink>
+                  <NavLink href="/streams">treams</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="/team">Personal</NavLink>

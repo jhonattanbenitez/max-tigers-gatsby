@@ -8,14 +8,18 @@ import PaginationLinks from '../components/PaginationLinks'
 
 
 
+
+
 const IndexPage = () => {
   const postsPerPage = 2;
   let numberOfPages
+
   return (
     
   <Layout pageTitle="Max Tigers">
   
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+     
     <StaticQuery query={indexQuery} render={data => {
         numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
         return (
@@ -44,7 +48,7 @@ const IndexPage = () => {
           }}
           options={{
           username: 'MaxTigersGG',
-          height: '800'
+          height: '400'
           }}
           onLoad={() => console.log('Timeline is loaded!')}
           />
