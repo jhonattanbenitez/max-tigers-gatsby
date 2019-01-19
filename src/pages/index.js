@@ -48,7 +48,7 @@ const IndexPage = () => {
           }}
           options={{
           username: 'MaxTigersGG',
-          height: '800'
+          height: '400'
           }}
           onLoad={() => console.log('Timeline is loaded!')}
           />
