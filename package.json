@@ -24,8 +24,11 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
+    "react-twitch-embed-video": "^1.0.1",
     "react-twitter-widgets": "^1.7.1",
-    "reactstrap": "^7.1.0"
+    "react-youtube": "^7.9.0",
+    "reactstrap": "^7.1.0",
+    "video-react": "^0.13.2"
   },
   "keywords": [
     "gatsby"
